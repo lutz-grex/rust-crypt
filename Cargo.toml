@@ -1,0 +1,16 @@
+[package]
+name = "RustCrypt"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.41", features = ["derive"] }
+hex = "0.4.3"
+sha2 = "0.10.9"
+aes= "0.8"
+aes-gcm = "0.10"
+pbkdf2 = "0.12"
+argon2 = "0.5" 
+rand = "0.8"
+base64 = "0.22.1"
+rand_core = "0.9.3"
